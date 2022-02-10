@@ -32,7 +32,13 @@ export default function Home() {
 
   useEffect(() => {
     (() => {
-      if (!localStorage.theme) localStorage.theme === "dark", setIsDark(true);
+      console.log(localStorage.theme);
+      if (!localStorage.theme) {
+        localStorage.theme = "dark";
+        document.documentElement.classList.add("dark");
+        setIsDark(true);
+      }
+      console.log(localStorage.theme);
 
       if (
         localStorage.theme === "dark" ||
