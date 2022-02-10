@@ -38,6 +38,7 @@ export default function Home() {
           window.matchMedia("(prefers-color-scheme: dark)").matches)
       ) {
         document.documentElement.classList.add("dark");
+        localStorage.theme === "dark";
         setIsDark(true);
       } else {
         document.documentElement.classList.remove("dark");
