@@ -75,11 +75,15 @@ export default function Home() {
             </a>
           </Link>
           <div className="flex justify-between items-center dark:text-white text-black">
-            <Link href="/">
-              <a className="px-4 text-lg">School</a>
+            <Link href="https://inmmerce.academy">
+              <a target="_blank" className="px-4 text-lg">
+                School
+              </a>
             </Link>
-            <Link href="/">
-              <a className="px-4 text-lg">Videos</a>
+            <Link href="https://www.youtube.com/zeluizr">
+              <a target="_blank" className="px-4 text-lg">
+                Videos
+              </a>
             </Link>
             <button
               className="px-4 cursor-pointer dark:text-white text-blue-950"
@@ -100,14 +104,16 @@ export default function Home() {
             </h1>
             <p className="font-normal text-2xl dark:text-white text-blue-950 mb-10">
               I teach people web development through{" "}
-              <Link href="/">
-                <a className="dark:text-yellow-950 text-white">
+              <Link href="https://www.youtube.com/zeluizr">
+                <a target="_blank" className="dark:text-yellow-950 text-white">
                   video tutorials
                 </a>
               </Link>{" "}
               and in my school{" "}
-              <Link href="/">
-                <a className="dark:text-yellow-950 text-white">inmmerce</a>
+              <Link href="https://inmmerce.academy">
+                <a target="_blank" className="dark:text-yellow-950 text-white">
+                  inmmerce
+                </a>
               </Link>
             </p>
             <NavIcons />

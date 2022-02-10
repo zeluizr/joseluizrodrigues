@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function NavIcons() {
   return (
     <nav className="w-full max-w-sm grid grid-cols-5 gap-2">
-      <Link href="/">
-        <a className="w-full flex items-center justify-center">
+      <Link href="https://www.twitter.com/zeluizr">
+        <a target="_blank" className="w-full flex items-center justify-center">
           <svg className="h-10" viewBox="0 0 61.562 50">
             <path
               className="fill-white"
@@ -14,8 +14,8 @@ export default function NavIcons() {
           </svg>
         </a>
       </Link>
-      <Link href="/">
-        <a className="w-full flex items-center justify-center">
+      <Link href="https://www.youtube.com/zeluizr">
+        <a target="_blank" className="w-full flex items-center justify-center">
           <svg className="h-10" viewBox="0 0 71.111 50">
             <path
               className="fill-white"
@@ -25,8 +25,8 @@ export default function NavIcons() {
           </svg>
         </a>
       </Link>
-      <Link href="/">
-        <a className="w-full flex items-center justify-center">
+      <Link href="https://www.twitch.com/zeluizr">
+        <a target="_blank" className="w-full flex items-center justify-center">
           <svg className="h-10" viewBox="0 0 47.768 50">
             <path
               className="fill-white"
@@ -36,8 +36,8 @@ export default function NavIcons() {
           </svg>
         </a>
       </Link>
-      <Link href="/">
-        <a className="w-full flex items-center justify-center">
+      <Link href="https://www.github.com/zeluizr">
+        <a target="_blank" className="w-full flex items-center justify-center">
           <svg className="h-10" viewBox="0 0 61.537 60">
             <path
               className="fill-white"
@@ -47,8 +47,8 @@ export default function NavIcons() {
           </svg>
         </a>
       </Link>
-      <Link href="/">
-        <a className="w-full flex items-center justify-center">
+      <Link href="https://inmmerce.academy">
+        <a target="_blank" className="w-full flex items-center justify-center">
           <svg className="h-10" viewBox="0 0 50.58 50">
             <g transform="translate(-1056.628 -870.524)">
               <path
