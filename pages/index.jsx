@@ -32,7 +32,7 @@ export default function Home() {
 
   useEffect(() => {
     (() => {
-      if (!localStorage.theme) localStorage.theme === "dark";
+      if (!localStorage.theme) localStorage.theme === "dark", setIsDark(true);
 
       if (
         localStorage.theme === "dark" ||
