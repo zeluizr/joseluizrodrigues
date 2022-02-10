@@ -1,0 +1,18 @@
+@tailwind base;
+
+@layer base {
+  html {
+    @apply h-full;
+  }
+
+  body {
+    @apply h-full dark:bg-blue-950 bg-slate-300;
+  }
+
+  #__next {
+    @apply h-full;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
