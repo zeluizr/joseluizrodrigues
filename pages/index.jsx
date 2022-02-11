@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Html } from "next/document";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -55,7 +56,7 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <Html lang="es">
       <Head>
         <title>
           Jose Luiz Rodrigues | I teach people web development through video
@@ -88,6 +89,7 @@ export default function Home() {
             <button
               className="px-4 cursor-pointer dark:text-white text-blue-950"
               onClick={changeTheme}
+              type="button"
             >
               {isDark ? <Sun /> : <Nigth />}
             </button>
@@ -120,6 +122,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </Html>
   );
 }
